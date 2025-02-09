@@ -1,0 +1,48 @@
+Package: luci-app-nikki
+Version: 1.17.5-r1
+Depends: libc, luci-base, nikki
+Source: /feed/luci-app-nikki
+SourceName: luci-app-nikki
+Section: luci
+SourceDateEpoch: 1739109003
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-nikki_1.17.5-r1_all.ipk
+Size: 8457
+SHA256sum: a522d433fe4c8f236fdeae61b8d632d4d0ebf988d31da40402c5423f3e34f68f
+Description:  LuCI Support for nikki
+
+Package: luci-i18n-nikki-zh-cn
+Version: 25.040.49803~d6a1492
+Depends: libc, luci-app-nikki
+Source: /feed/luci-app-nikki
+SourceName: luci-app-nikki
+Section: luci
+SourceDateEpoch: 1739109003
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-nikki-zh-cn_25.040.49803~d6a1492_all.ipk
+Size: 4155
+SHA256sum: 94046c6ee23cea1479ac77fc079701bb1d5cc4d751b385dc4b40587edccee911
+Description:  Translation for luci-app-nikki - 简体中文 (Chinese Simplified)
+
+Package: nikki
+Version: 2025.01.21~b69e52d4-r1
+Depends: libc, ca-bundle, curl, yq, firewall4, ip-full, kmod-inet-diag, kmod-nft-tproxy, kmod-tun
+Source: /feed/nikki
+SourceName: nikki
+License: GPL3.0+
+Section: net
+Require-User: root:nikki=1206
+SourceDateEpoch: 1739109003
+URL: https://wiki.metacubex.one
+Maintainer: Joseph Mory <morytyann@gmail.com>
+Architecture: mips_4kec
+Installed-Size: 32235520
+Filename: nikki_2025.01.21~b69e52d4-r1_mips_4kec.ipk
+Size: 10267615
+SHA256sum: ae7be3918c8be79cdab7a301e361f5521b3d8608724b445e18aad06ec1139064
+Description:  A rule based proxy in Go.
+
